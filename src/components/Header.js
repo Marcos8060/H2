@@ -26,10 +26,8 @@ function Header() {
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Available Maids</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link btn btn" href="#">Sign Up</a>
-                                </li>
                             </ul>
+                            <button className='btn'>Sign Up</button>
                         </div>
                     </div>
                 </nav>

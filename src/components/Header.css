@@ -9,3 +9,10 @@
 .app_header{
     margin-bottom: 15vh;
 }
+.btn{
+    background: #8480FB;
+    color: white;
+}
+.last > a {
+    color: white;
+}

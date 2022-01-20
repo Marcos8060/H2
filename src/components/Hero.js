@@ -32,7 +32,7 @@ function Hero() {
                 <div className="col-7">
                         <div className='founder'>
                             <div>
-                                <img className='img-fluid img1' src="https://avatars.githubusercontent.com/u/26818458?v=4" alt="" />
+                                <img className='img-fluid img1' src="https://avatars.githubusercontent.com/u/76810083?v=4" alt="" />
                             </div>
                             <div>
                                 <h5>Marcos Ochieng</h5>
