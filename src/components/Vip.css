@@ -9,4 +9,14 @@
 }
 .button{
     border: 2px solid #8480FB !important;
+    border-radius: 20px !important;
+    height: 50px !important;
+    width: 150px !important;
+    font-weight: bold !important;
+    text-transform: inherit !important;
+}
+.button:hover{
+    background: #8480FB !important;
+    transition: 1s !important;
+    color: white !important;
 }
