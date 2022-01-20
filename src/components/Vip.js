@@ -1,4 +1,5 @@
 import React from 'react';
+import './Vip.css'
 
 function Vip() {
   return (
@@ -6,7 +7,7 @@ function Vip() {
           <div className="container">
             <div class="row">
                 <div className="col-6">
-                    <div className="background">
+                    <div className="back">
                         <img src="" alt="" />
                     </div>
                 </div>
