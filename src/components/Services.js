@@ -3,7 +3,7 @@ import './Services.css'
 
 function Services() {
   return (
-      <div className="container">
+      <div className="container-fluid">
           <div className='app_services'>
               <div className="service_header">
                 <h3 className='pt-4 underline'>Our Services</h3>

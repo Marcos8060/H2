@@ -16,16 +16,11 @@ svg > circle{
     transform: translate(5px, 5px);
 }
 .number{
-    top: 0;
-    left: 0;
     margin-top: -15vh;
-    margin-left: 3vh;
 }
 /* service details */
 .service_details{
     margin-top: 10vh;
-    display: flex;
-
 }
 .detail_item > h5{
     font-weight: bold;
