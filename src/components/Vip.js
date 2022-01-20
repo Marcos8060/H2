@@ -8,10 +8,9 @@ function Vip() {
       <div className='app_vip'>
           <div className="container">
             <div class="row">
-                <div className="col-6 text-center">
-                    <div className="back">
-                        <img className='img-fluid' src={maid2} alt="maid" />
-                    </div>
+                <div className="col-6">
+                    <div className="back"></div>
+                    <img className='imge' src={maid2} alt="maid" />
                 </div>
                 <div className="col-6">
                     <h2 className='vip_title'>Get the VIP experience</h2>

@@ -2,6 +2,23 @@
     background: #ffffff;
     padding-top: 30px;
 }
+.row{
+    margin-top: 10vh;
+}
+.back{
+    background: #8480FB;
+    height: 250px;
+    width: 250px;
+    border-radius: 999px;
+    margin-left: 15vh;
+    margin-top: 10vh;
+}
+.imge{
+    width: 700px;
+    height: 450px;
+    margin-top: -65vh;
+    margin-left: -20vh;
+}
 .vip_title{
     font-weight: bold;
     font-size: 35px;
