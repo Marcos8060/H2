@@ -1,0 +1,10 @@
+.app_register{
+    height: 70vh;
+}
+.form{
+    background: white;
+    padding-bottom: 5vh;
+}
+.row > div > input{
+    width: 100%;
+}
