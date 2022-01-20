@@ -1,0 +1,19 @@
+.app_profile{
+    /* background: #ffffff; */
+    padding-bottom: 5vh;
+}
+.app_profile > div > h2{
+    font-weight: bold;
+}
+/* .item{
+    background: white;
+    border-radius: 6px;
+    margin: 10px;
+} */
+.item > img{
+    margin-left: 20%;
+    margin-right: 30%;
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+}
