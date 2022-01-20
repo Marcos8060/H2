@@ -15,7 +15,7 @@ function Vip() {
                 </div>
                 <div className="col-6">
                     <h2 className='vip_title'>Get the VIP experience</h2>
-                    <p>Vip Express service is a comprehensive emaids solution tailored for for busy families.
+                    <p className='paragraph'>Vip Express service is a comprehensive emaids solution tailored for for busy families.
                         Not only will you ever wait at our counters, this free service ensures quick and effecient check-out
                         automatic billing and 24-hour access to our services. Sign up today.
                     </p>
