@@ -25,7 +25,7 @@ function Hero() {
                     <div className='icons'>
                         <FacebookIcon />
                         <TwitterIcon />
-                        <InstagramIcon />
+                        <InstagramIcon className='instagram' />
                         <LinkedInIcon />
                     </div>
                 </div>

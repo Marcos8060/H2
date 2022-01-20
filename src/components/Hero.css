@@ -64,4 +64,8 @@ h1{
     font-size: 40px;
     margin-right: 20px;
     cursor: pointer;
+    color: #1877F2;
+}
+.icons > .instagram{
+    color: #CC5095;
 }

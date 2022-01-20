@@ -34,6 +34,9 @@ svg{
 .number{
     margin-top: -15vh;
 }
+.number > .MuiSvgIcon-root{
+    font-size: 50px;
+}
 /* service details */
 .service_details{
     margin-top: 10vh;

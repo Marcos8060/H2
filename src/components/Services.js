@@ -1,5 +1,8 @@
 import React from 'react';
 import './Services.css'
+import SupportAgentIcon from '@mui/icons-material/SupportAgent';
+import SecurityIcon from '@mui/icons-material/Security';
+
 
 function Services() {
   return (
@@ -16,7 +19,8 @@ function Services() {
                         <circle cx='70' cy='70' r='70'></circle>
                     </svg>
                     <div className="number">
-                        <h2>78%</h2>
+                        <SecurityIcon />
+                        {/* <h2>78%</h2> */}
                     </div>
                 </div>
                 <div className='service_item col-4 text-center'>
@@ -25,7 +29,8 @@ function Services() {
                         <circle cx='70' cy='70' r='70'></circle>
                     </svg>
                     <div className="number">
-                        <h2>78%</h2>
+                        <SupportAgentIcon />
+                        {/* <h2>78%</h2> */}
                     </div>
                 </div>
                 <div className='service_item col-4 text-center'>
