@@ -1,0 +1,58 @@
+.app_about{
+    background: white;
+    padding-bottom: 30px;
+}
+.about_summary{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+.underline{
+    border-bottom: 4px solid #B182FB;
+    border-radius: 3px;
+    width: 25%;
+}
+.about_summary > .summary_item > .MuiSvgIcon-root{
+    font-size: 40px;
+    margin: 10px;
+}
+.about_summary > .summary_item:first-child{
+    color: #F5735D;
+}
+.about_summary > .summary_item:nth-child(2){
+    color: #B182FB;
+}
+.about_summary > .summary_item:nth-child(3){
+    color: #FDB732;
+}
+.about_summary > .summary_item:nth-child(4){
+    color: #F7852A;
+}
+.about_summary > .summary_item:nth-child(5){
+    color: #54B768;
+}
+.about_summary > .summary_item > small{
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+}
+.about_cards{
+    display: flex;
+}
+.card-item{
+    background: #EAEDFE;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.card-item > h6{
+    font-weight: bold;
+    font-size: 17px;
+}
+.card-item > .MuiSvgIcon-root{
+    font-size: 40px;
+    border-radius: 999px;
+    color: #B182FB;
+}

@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
 
     return (
-        <div className='app_hero'>
+        <div>
             <div className="app_header">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">

@@ -1,3 +1,67 @@
+
 h1{
     font-weight: bold;
+}
+.row{
+    width: 100%;
+    margin: auto;
+}
+.form{
+    display: flex;
+    width: 70%;
+}
+.form > div > .btn{
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin-left: 5px;
+}
+/* background */
+.background{
+    background: #8480FA;
+    height: 350px;
+    width: 350px;
+    border-radius: 999px;
+    margin-left: 40vh;
+    margin-top: -10vh;
+}
+/* founder */
+.founder{
+    display: flex;
+    align-items: center;
+    background: #8480FA;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.statistics{
+    margin-top: 10px;
+    background: #8480FA;
+    width: 40%;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+/* hero image */
+.img{
+    position: absolute;
+    margin-top: -30vh;
+    margin-left: -20vh;
+}
+/* founder image */
+.img1{
+    border-radius: 999px;
+    height: 50px;
+    width: 50px;
+}
+/* icons */
+.icons{
+    margin-top: 20vh;
+}
+.icons > .MuiSvgIcon-root{
+    font-size: 40px;
+    margin-right: 20px;
+    cursor: pointer;
 }
