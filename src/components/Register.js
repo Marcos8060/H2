@@ -7,12 +7,13 @@ function Register() {
       <div className="container">
           <div className='app_register'>
               <div className="row">
-                  <div className="col-md-3">
-                      <h2>Welcome to emaids</h2>
+                  <div className="col-md-3 welcome text-center">
+                      <h5 className='emaid mt-4'>emaids</h5>
+                      <h2 className='mt-5'>Welcome to emaids</h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt possimus nobis aliquam!</p>
                   </div>
-                  <div className="col-md-9 form">
-                      <h2 className='text'>Create your Profile</h2>
+                  <div className="col-md-9 forme text-center">
+                      <h2 className='mt-3'>Create your Profile</h2>
                       <div className="row">
                           <div className="col-md-6">
                                   <label htmlFor="name" className="form-label">Name:</label>
@@ -34,8 +35,8 @@ function Register() {
                                   <progress className='progress mt-3' max='100'/>    
                                   <input type="file" className='form-control'/>
                          </div>
-                        <Button className='btn mt-3'>Submit</Button>
                       </div>
+                      <Button className='btn1 mt-3'>Submit</Button>
                   </div>
               </div>
             </div>

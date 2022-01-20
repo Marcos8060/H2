@@ -1,10 +1,27 @@
 .app_register{
-    height: 70vh;
+    margin-bottom: 5vh;
 }
-.form{
+.forme{
     background: white;
     padding-bottom: 5vh;
 }
+.forme > h2{
+    font-weight: bold;
+}
 .row > div > input{
     width: 100%;
+}
+.welcome{
+    background: #FBD95A;
+}
+.emaid{
+    margin-left: -10vh;
+}
+.btn1{
+    background: #FBD95A !important;
+    text-transform: inherit !important;
+    border-radius: 10px !important;
+    width: 200px !important;
+    height: 40px !important;
+    font-weight: bold !important;
 }
