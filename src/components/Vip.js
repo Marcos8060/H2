@@ -1,6 +1,6 @@
 import React from 'react';
 import './Vip.css'
-import maid2 from '../Images/maid3.png'
+import maid2 from '../Images/maid2.png'
 import {Button} from '@material-ui/core'
 
 function Vip() {
@@ -8,7 +8,7 @@ function Vip() {
       <div className='app_vip'>
           <div className="container">
             <div class="row">
-                <div className="col-6">
+                <div className="col-6 text-center">
                     <div className="back">
                         <img className='img-fluid' src={maid2} alt="maid" />
                     </div>
@@ -19,7 +19,7 @@ function Vip() {
                         Not only will you ever wait at our counters, this free service ensures quick and effecient check-out
                         automatic billing and 24-hour access to our services. Sign up today.
                     </p>
-                    <Button>Become a Vip</Button>
+                    <Button className='button'>Become a Vip</Button>
                 </div>
             </div>
           </div>
