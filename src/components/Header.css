@@ -1,0 +1,8 @@
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.navbar-nav{
+    font-weight: bold;
+    float: right;
+}
