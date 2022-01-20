@@ -1,5 +1,6 @@
 import React from 'react';
 import './Vip.css'
+import maid2 from '../Images/maid3.png'
 
 function Vip() {
   return (
@@ -8,12 +9,12 @@ function Vip() {
             <div class="row">
                 <div className="col-6">
                     <div className="back">
-                        <img src="" alt="" />
+                        <img className='img-fluid' src={maid2} alt="maid" />
                     </div>
                 </div>
                 <div className="col-6">
-                    <h2>Get the VIP experience</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam assumenda aliquam dolores commodi enim tempora. Quaerat ullam repellat dolore.</p>
+                    <h2 className='vip_title'>Get the VIP experience</h2>
+                    <p>Vip</p>
                 </div>
             </div>
           </div>
