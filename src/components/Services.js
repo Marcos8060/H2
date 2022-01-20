@@ -3,7 +3,7 @@ import './Services.css'
 
 function Services() {
   return (
-      <div className="container-fluid">
+      <div className="container">
           <div className='app_services'>
               <div className="service_header">
                 <h3 className='pt-4 underline'>Our Services</h3>
@@ -11,7 +11,7 @@ function Services() {
               </div>
             <div className="service_progress row">
                 <div className='service_item col-4 text-center'>
-                    <svg>
+                    <svg className='yellow'>
                         <circle cx='70' cy='70' r='70'></circle>
                         <circle cx='70' cy='70' r='70'></circle>
                     </svg>
@@ -20,7 +20,7 @@ function Services() {
                     </div>
                 </div>
                 <div className='service_item col-4 text-center'>
-                    <svg>
+                    <svg className='blue'>
                         <circle cx='70' cy='70' r='70'></circle>
                         <circle cx='70' cy='70' r='70'></circle>
                     </svg>
@@ -29,7 +29,7 @@ function Services() {
                     </div>
                 </div>
                 <div className='service_item col-4 text-center'>
-                    <svg>
+                    <svg className='green'>
                         <circle cx='70' cy='70' r='70'></circle>
                         <circle cx='70' cy='70' r='70'></circle>
                     </svg>
@@ -40,7 +40,7 @@ function Services() {
             </div>
             <div className="service_details row">
                 <div className="detail_item col-4 text-center">
-                    <h5>Consultancy</h5>
+                    <h5>Background Checks</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus aperiam, ut odio inventore fugiat!</p>
                 </div>
                 <div className="detail_item col-4 text-center">

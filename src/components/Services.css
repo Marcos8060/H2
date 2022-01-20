@@ -7,12 +7,28 @@ svg{
     width: 150px;
     height: 150px;
 }
-svg > circle{
+.yellow > circle{
     width: 150px;
     height: 150px;
     fill: none;
-    stroke-width: 5;
+    stroke-width: 8;
+    stroke: #FDB732;
+    transform: translate(5px, 5px);
+}
+.blue > circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 8;
     stroke: #B182FB;
+    transform: translate(5px, 5px);
+}
+.green > circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 8;
+    stroke: #54B768;
     transform: translate(5px, 5px);
 }
 .number{
